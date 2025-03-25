@@ -1,0 +1,49 @@
+<html>
+<head>
+
+    <title>Internship Application Form</title>
+</head> <img src="C:\Users\pc\Pictures\imggg.jpg" height="150" width="400">    
+<body style="background-color: lightslategray">
+
+    <h2 style="color :aliceblue;">Internship Application Form</h2>
+    <h4>Personel Information</h4>
+    <form action="submit_form.php" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+        <h4>Education </h4>
+
+        <label for="college">College/University:</label><br>
+        <input type="text" id="college" name="college" required><br>
+
+        <label for="course">Course:</label><br>
+        <input type="text" id="course" name="course" required><br>
+
+        <label for="internship">Internship Position:</label><br>
+        <select id="internship" name="internship" required><br>
+            <option value="">Select</option><br>
+            <option value="web_dev">Web Development</option><br>
+            <option value="data_science">Data Science</option><br>
+            <option value="marketing">Marketing</option><br>
+        </select>
+
+        <br><label for="resume">Upload Resume:</label><br>
+        <input type="file" id="resume" name="resume" required><br>
+
+        <label for="message">Why do you want this internship?</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+        <input type="submit" value="Submit"><br>
+    </form>
+</div>
+
+</body>
+</html>
